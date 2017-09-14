@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>jQuery simplyScroll - Logicbox</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js">
+</script>
+<script type="text/javascript" src="../jquery.simplyscroll.js"></script>
+<link rel="stylesheet" href="../jquery.simplyscroll.css" media="all" type="text/css">
+<script type="text/javascript">
+(function($) {
+	$(function() {
+		$("#scroller").simplyScroll({
+			pauseOnTouch: true,
+			pauseOnHover: false
+		});
+	});
+})(jQuery);
+</script>
+</head>
+
+<body>
+
+<ul id="scroller">
+    <li><img src="https://dummyimage.com/300.png/09f/fff" width="290" height="200" alt="Firehouse"></li>
+    <li><img src="https://dummyimage.com/300.png" width="290" height="200" alt="Chloe nightclub"></li>
+    <li><img src="https://dummyimage.com/300.png/09f/fff" width="290" height="200" alt="Firehouse bar"></li>
+    <li><img src="https://dummyimage.com/300.png" width="290" height="200" alt="Firehouse chloe club fishtank"></li>
+    <li><img src="https://dummyimage.com/300.png/09f/fff" width="290" height="200" alt="Firehouse restaurant"></li>
+    <li><img src="https://dummyimage.com/300.png" width="290" height="200" alt="Firehouse"></li>
+</ul>
+
+        
+</body>
+</html>
